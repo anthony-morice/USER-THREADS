@@ -1,4 +1,10 @@
-Run solution for main.cpp: ./uthread-solution-exe 100000000 8
+## Description 
+This repository contains code developed to complete an assignment for the CSCI 5103 Operating
+systems course offered at UMN. Note that the following files were provided by
+the course instructors: uthread.h, TCB.h, Makefile, and main.cpp.
+All other fles/code, however, was written by me.
+
+To run solution main.cpp: ./uthread-solution-exe 100000000 8
 
 ## Final Submission Comments
 To test the functionality of the uthread library, run the following commands
