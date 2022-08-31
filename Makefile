@@ -6,13 +6,10 @@ OBJ = TCB.o uthread.o main.o
 %.o: %.cpp $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS) 
 
-uthread-demo: $(OBJ)
-	$(CC) -o $@ $^ $(CFLAGS)
-
 uthread-test: TCB.o uthread.o uthread-test.o 
 	$(CC) -o $@ $^ $(CFLAGS)
 
 .PHONY: clean
 
 clean:
-	rm -f uthread-demo uthread-test *.o
+	rm -f uthread-test *.o
